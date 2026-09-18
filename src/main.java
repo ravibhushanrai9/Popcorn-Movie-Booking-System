@@ -212,7 +212,7 @@ class Ticket {
 }
 
 // --- MAIN SYSTEM CONTROLLER ---
-public class MultiplexBookingSystem {
+public class PopcornMovieBookingSystem {
     private static final List<Movie> movies = new ArrayList<>();
     private static final List<Show> shows = new ArrayList<>();
     private static final List<Ticket> userWallet = new ArrayList<>();
@@ -232,7 +232,7 @@ public class MultiplexBookingSystem {
     private static void runPortalSelection() {
         while (true) {
             System.out.println("\n============================================");
-            System.out.println("       MULTIPLEX MOVIE BOOKING SYSTEM       ");
+            System.out.println("       POPCORN MOVIE BOOKING SYSTEM       ");
             System.out.println("============================================");
             System.out.println("1. Login as User");
             System.out.println("2. Login as Admin");
