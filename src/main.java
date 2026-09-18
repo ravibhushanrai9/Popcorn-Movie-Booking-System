@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-// --- ENUMS ---
+// --- ENUMS --- 
 enum SeatTier {
     VIP(500.0), PREMIUM(350.0), EXECUTIVE(250.0), NORMAL(150.0);
     private final double price;
